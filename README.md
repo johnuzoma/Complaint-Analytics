@@ -20,7 +20,9 @@ I developed a pipeline in Databricks using Delta Live Tables for efficient data 
 - #### Data Pipeline
 <img width="949" alt="image" src="https://github.com/user-attachments/assets/986d3671-6ace-4b0b-9376-df4092106ed7" />
 
-[Spark notebook attached to the pipeline.](https://github.com/johnuzoma/Complaint-Analytics/blob/main/cc-pipeline.ipynb)
+[Spark notebook for ingesting data from Amazon S3 into Databricks volume (file storage)](https://github.com/johnuzoma/Complaint-Analytics/blob/main/cc-data_setup.ipynb)
+
+[Spark notebook attached to the DLT pipeline.](https://github.com/johnuzoma/Complaint-Analytics/blob/main/cc-pipeline.ipynb)
 
 ### 3.2. Data Analysis & Reporting
 I connected Databricks to Power BI (using a personal access key generated in Databricks) to create a report addressing key questions, including seasonal trends, product-based complaint distribution, resolution methods, and insights from untimely responses.
