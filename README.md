@@ -3,7 +3,7 @@
 ## 1. Overview
 In this project, I designed and implemented an end-to-end data pipeline for analyzing consumer complaints data stored in an Amazon S3 bucket.
 
-- Skills Demonstrated: Data engineering with Databricks, Delta Live Tables, PySpark, SparkSQL, Amazon S3, Power BI for visualization, and reporting.
+- Skills Demonstrated: Data engineering with Databricks, Delta Live Tables, PySpark, SparkSQL, Amazon S3, Power BI for visualization and reporting.
 
 ## 2. Business Questions
 - Do consumer complaints show any seasonal patterns?
