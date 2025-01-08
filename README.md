@@ -14,7 +14,7 @@ In this project, I designed and implemented an end-to-end data pipeline for anal
 ## 3. Solution Architecture
 ![complaint-analytics](https://github.com/user-attachments/assets/16268856-6345-40eb-b501-0eef57a77c4d)
 
-### 3.1. Data Engineering
+## 4. Data Engineering
 I developed a pipeline in Databricks using Delta Live Tables for efficient data processing. In the pipeline, I created a staging table for data validation and cleansing, followed by materialized views for fact and dimension tables using PySpark and SparkSQL.
 
 - #### Data Pipeline
@@ -24,7 +24,7 @@ I developed a pipeline in Databricks using Delta Live Tables for efficient data 
 
 [Spark notebook attached to the DLT pipeline.](https://github.com/johnuzoma/Complaint-Analytics/blob/main/cc-pipeline.ipynb)
 
-### 3.2. Data Analysis & Reporting
+## 5. Data Analysis & Reporting
 I connected Databricks to Power BI (using a personal access key generated in Databricks) to create a report addressing key questions, including seasonal trends, product-based complaint distribution, resolution methods, and insights from untimely responses.
 
 - #### Power BI Report
